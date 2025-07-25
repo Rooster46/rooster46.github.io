@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rudolf Lombaard - Online CV</title>
+  <!-- Google Fonts for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Use Inter font as defined in Tailwind config or as a fallback */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+    
+    <!-- Header Section -->
+    <header class="text-center bg-gradient-to-r from-red-800 to-red-600 text-white p-8 rounded-xl shadow-lg mb-8">
+      <!-- IMPORTANT: Replace this placeholder link with a direct URL to your photo -->
+      <img 
+        src="https://placehold.co/150x150/ffffff/b22222?text=RL" 
+        alt="Rudolf Lombaard" 
+        class="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-4 border-4 border-white shadow-md"
+        onerror="this.onerror=null;this.src='https://placehold.co/150x150/ffffff/b22222?text=RL';">
+      <h1 class="text-4xl md:text-5xl font-bold">Rudolf Lombaard</h1>
+      <p class="text-xl mt-2">Information Technology Student</p>
+    </header>
+
+    <!-- Main Content Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Left Column -->
+      <div class="md:col-span-1 space-y-8">
+        
+        <!-- Contact Section -->
+        <section class="bg-white p-6 rounded-xl shadow-md">
+          <h2 class="text-2xl font-bold text-red-800 border-b-2 border-red-200 pb-2 mb-4">Contact</h2>
+          <div class="space-y-3">
+            <p><strong>Email:</strong> rulombaard@gmail.com</p>
+            <p><strong>Phone:</strong> +27 78 776 9250</p>
+            <p><strong>Location:</strong> Potchefstroom, NW, SA</p>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-white p-6 rounded-xl shadow-md">
+          <h2 class="text-2xl font-bold text-red-800 border-b-2 border-red-200 pb-2 mb-4">Skills</h2>
+          <ul class="list-disc list-inside space-y-2">
+            <li><strong>Languages:</strong> Python, Java, C++, C#, SQL</li>
+            <li><strong>Databases:</strong> MySQL, MS SQL Server</li>
+            <li><strong>Tools:</strong> Git, GitHub, VS Code, Visual Studio</li>
+            <li><strong>OS:</strong> Windows, Linux</li>
+            <li><strong>Spoken:</strong> English, Afrikaans</li>
+          </ul>
+        </section>
+        
+        <!-- References Section -->
+        <section class="bg-white p-6 rounded-xl shadow-md">
+          <h2 class="text-2xl font-bold text-red-800 border-b-2 border-red-200 pb-2 mb-4">References</h2>
+          <div class="space-y-4">
+            <div>
+              <p class="font-bold">Wietsche van der Westhuizen</p>
+              <p class="text-sm">Manager, Impala Nightclub</p>
+              <p class="text-sm">Cell: 071 355 6457</p>
+            </div>
+            <div>
+              <p class="font-bold">Robert Ferreira</p>
+              <p class="text-sm">Manager, Record Productions</p>
+              <p class="text-sm">Cell: 076 020 0509</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="md:col-span-2 space-y-8">
+
+        <!-- Objective Section -->
+        <section class="bg-white p-6 rounded-xl shadow-md">
+          <h2 class="text-2xl font-bold text-red-800 border-b-2 border-red-200 pb-2 mb-4">Objective</h2>
+          <p>A dedicated and motivated Information Technology student with a strong foundation in software development, database management, and systems analysis. Seeking an entry-level Developer, Systems Analyst, or Database role where I can apply my technical skills and passion for technology to contribute to real-world projects. Expected to graduate in December 2025.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="bg-white p-6 rounded-xl shadow-md">
+          <h2 class="text-2xl font-bold text-red-800 border-b-2 border-red-200 pb-2 mb-4">Education</h2>
+          <div class="mb-4">
+            <h3 class="text-lg font-bold">North-West University</h3>
+            <p class="italic">Bachelor of Science in Information Technology</p>
+            <p class="text-sm text-gray-600">Feb 2020 – Expected Dec 2025</p>
+          </div>
+          <p><strong>Relevant Coursework:</strong> Advanced Databases, Data Analytics, System Analysis and Design, Data Structures and Algorithms, Operating Systems, Decision Support Systems, Artificial Intelligence, Computer Networks, IT Developments.</p>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="bg-white p-6 rounded-xl shadow-md">
+          <h2 class="text-2xl font-bold text-red-800 border-b-2 border-red-200 pb-2 mb-4">Work Experience</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-lg font-bold">Sound Engineer</h3>
+              <p class="italic">Record Productions | Jun 2024 – Present</p>
+              <ul class="list-disc list-inside mt-2 space-y-1">
+                <li>Responsible for the setup, configuration, and teardown of audio equipment for live events.</li>
+                <li>Conduct systematic testing and troubleshooting to ensure flawless performance.</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Night Club Bouncer</h3>
+              <p class="italic">Impala Night Club | Feb 2022 – Nov 2022</p>
+              <ul class="list-disc list-inside mt-2 space-y-1">
+                <li>Maintained a safe environment by monitoring patrons and enforcing policies.</li>
+                <li>Utilised de-escalation techniques to professionally resolve conflicts.</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Delivery Driver</h3>
+              <p class="italic">Katexas Steakhouse | Apr 2020 – Dec 2020</p>
+              <ul class="list-disc list-inside mt-2 space-y-1">
+                <li>Ensured timely and accurate delivery of orders, maintaining high customer satisfaction.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-8 p-4 text-gray-500 text-sm">
+      <p>&copy; 2025 Rudolf Lombaard. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
